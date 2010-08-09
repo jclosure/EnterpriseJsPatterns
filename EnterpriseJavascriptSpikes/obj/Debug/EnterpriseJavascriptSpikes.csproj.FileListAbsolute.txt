@@ -1,0 +1,5 @@
+c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\bin\EnterpriseJavascriptSpikes.dll
+c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\bin\EnterpriseJavascriptSpikes.pdb
+c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.dll
+c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.pdb
