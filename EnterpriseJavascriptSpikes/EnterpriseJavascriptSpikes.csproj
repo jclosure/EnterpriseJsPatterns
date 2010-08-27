@@ -75,6 +75,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\jquery.mockjax.min.js" />
     <Content Include="Scripts\prototypal.js" />
     <Content Include="Scripts\Test\testsuite.html" />
     <Content Include="Views\Conference\Index.aspx" />

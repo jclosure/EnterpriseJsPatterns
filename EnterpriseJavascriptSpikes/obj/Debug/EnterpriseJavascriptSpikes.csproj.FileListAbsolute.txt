@@ -3,3 +3,8 @@ c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpike
 c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\ResolveAssemblyReference.cache
 c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.dll
 c:\users\jholder\documents\visual studio 2010\Projects\EnterpriseJavascriptSpikes\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.pdb
+C:\src\EnterpriseJsPatterns\EnterpriseJavascriptSpikes\bin\EnterpriseJavascriptSpikes.dll
+C:\src\EnterpriseJsPatterns\EnterpriseJavascriptSpikes\bin\EnterpriseJavascriptSpikes.pdb
+C:\src\EnterpriseJsPatterns\EnterpriseJavascriptSpikes\obj\Debug\ResolveAssemblyReference.cache
+C:\src\EnterpriseJsPatterns\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.dll
+C:\src\EnterpriseJsPatterns\EnterpriseJavascriptSpikes\obj\Debug\EnterpriseJavascriptSpikes.pdb
