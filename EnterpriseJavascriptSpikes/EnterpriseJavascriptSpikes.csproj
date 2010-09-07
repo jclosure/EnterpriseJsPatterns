@@ -77,6 +77,7 @@
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery.mockjax.min.js" />
     <Content Include="Scripts\prototypal.js" />
+    <Content Include="Scripts\Test\ajaxfixtures.js" />
     <Content Include="Scripts\Test\testsuite.html" />
     <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Web.config" />
@@ -119,7 +120,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1815</DevelopmentServerPort>
+          <DevelopmentServerPort>13442</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

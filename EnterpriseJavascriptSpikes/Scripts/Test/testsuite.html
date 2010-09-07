@@ -50,23 +50,18 @@
 
             module("Ajax Module");
 
-
+            //shred fixtures
+            var ajaxfixtures = new AjaxFixtures();
 
             test("mocked messaging", function () {
-
+            
+                //arrange
                 var url = '/some/json';
-
-                var ajaxfixtures = new AjaxFixtures();
-
                 ajaxfixtures.mock(url, { responseText: {say: "JSON Here"}});
 
 
 
-                //define the tests
-
-                var wasMessageMocked = function (message) {
-                    ok(message.say.match(/JSON Here/), "the message was successfully received and was correct");
-                }
+               
 
 
                 //execute tests
@@ -83,6 +78,11 @@
                     }
                 });
 
+
+                //assertions
+                var wasMessageMocked = function (message) {
+                    ok(message.say.match(/JSON Here/), "the message was successfully received and was correct");
+                }
 
             });
 
