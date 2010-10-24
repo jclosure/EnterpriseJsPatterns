@@ -6,7 +6,7 @@
     <title>Index</title>
     <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
     <script src="../../Scripts/prototypal.js" type="text/javascript"></script>
-    <script src="../../Scripts/app.js" type="text/javascript"></script>
+    <script src="../../Scripts/conference.js" type="text/javascript"></script>
     <script type="text/javascript">
 
         $(document).ready(function () {

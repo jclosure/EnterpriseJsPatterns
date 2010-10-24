@@ -1,8 +1,10 @@
 ﻿//note: name this according to what it supports
-var sofeaController = new function () {
+var SofeaController = function () {
     var controller = this;
     //set defaults
-    var opts = {};
+    var opts = {
+        mode: 'single'
+    };
 
     //BEGIN HELPERS
 
@@ -15,7 +17,7 @@ var sofeaController = new function () {
     controller.init = function init(options) {
         if (!!options)
             opts = $.extend(opts, options);
-        loadDefaults();
+        return loadDefaults();
     };
 
     controller.loadDefaults = function loadDefaults() {
@@ -30,9 +32,9 @@ var sofeaController = new function () {
                 alert("default");
                 break;
         }
+        return controller;
     };
     //END PUBLIC API
 
-
-
+    return controller;
 };

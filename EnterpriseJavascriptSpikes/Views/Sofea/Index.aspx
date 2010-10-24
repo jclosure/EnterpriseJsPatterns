@@ -6,12 +6,18 @@
 <head runat="server">
     <title>Index</title>
     <script src="../../Scripts/jquery-1.4.3.js" type="text/javascript"></script>
+    <script src="../../Scripts/prototypal.js" type="text/javascript"></script>
+    <%--<script src="../../Scripts/require-jquery.js" type="text/javascript"></script>--%>
     <script src="../../Scripts/Sofea/SharedSofeaController.js" type="text/javascript"></script>
 
     <script type="text/javascript">
+        //require(["prototypal.js"], function () {        });
+        var controller;
         $(document).ready(function () {
-            sofeaController.init({ mode: 'single' });
+            debugger;
+            controller = new SofeaController().init();
         });
+
     </script>
 
 </head>

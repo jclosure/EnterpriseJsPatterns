@@ -72,6 +72,7 @@
     <Compile Include="Controllers\FormGlueController.cs" />
     <Compile Include="Controllers\JSHackingController.cs" />
     <Compile Include="Controllers\PortletController.cs" />
+    <Compile Include="Controllers\RequireController.cs" />
     <Compile Include="Controllers\SofeaController.cs" />
     <Compile Include="Controllers\TemplateController.cs" />
     <Compile Include="Global.asax.cs">
@@ -79,6 +80,7 @@
     </Compile>
     <Compile Include="Models\Company.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Content\reset.css" />
     <Content Include="jquery-ui\.gitignore" />
     <Content Include="jquery-ui\AUTHORS.txt" />
     <Content Include="jquery-ui\build\build.xml" />
@@ -684,8 +686,11 @@
     <Content Include="jquery-ui\ui\jquery.ui.tabs.js" />
     <Content Include="jquery-ui\ui\jquery.ui.widget.js" />
     <Content Include="jquery-ui\version.txt" />
+    <Content Include="Scripts\app.build.js" />
     <Content Include="Scripts\ba-debug.min.js" />
     <Content Include="Scripts\jquery-1.4.3.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\require-jquery.js" />
     <Content Include="Scripts\Sofea\SharedSofeaController.js" />
     <Content Include="TODO.txt" />
   </ItemGroup>
@@ -771,7 +776,7 @@
     <Content Include="jquery-tmpl\jquery.tmpl.min.js" />
     <Content Include="jquery-tmpl\jquery.tmplPlus.js" />
     <Content Include="jquery-tmpl\jquery.tmplplus.min.js" />
-    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\conference.js" />
     <Content Include="Scripts\chainrunner.js" />
     <Content Include="Scripts\DD_belatedPNG_0.0.8a-min.js" />
     <Content Include="Scripts\idioms.js" />
@@ -786,6 +791,7 @@
     <Content Include="Views\JSHacking\Index.aspx" />
     <Content Include="Views\Portlet\Composite.aspx" />
     <Content Include="Views\Portlet\Index.aspx" />
+    <Content Include="Views\Require\Index.aspx" />
     <Content Include="Views\Sofea\Index.aspx" />
     <Content Include="Views\Template\Index.aspx" />
     <Content Include="Web.config" />
