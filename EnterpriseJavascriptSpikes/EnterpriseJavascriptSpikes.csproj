@@ -70,7 +70,9 @@
     <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Controllers\DataLinkController.cs" />
     <Compile Include="Controllers\FormGlueController.cs" />
+    <Compile Include="Controllers\JSHackingController.cs" />
     <Compile Include="Controllers\PortletController.cs" />
+    <Compile Include="Controllers\SofeaController.cs" />
     <Compile Include="Controllers\TemplateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -684,6 +686,7 @@
     <Content Include="jquery-ui\version.txt" />
     <Content Include="Scripts\ba-debug.min.js" />
     <Content Include="Scripts\jquery-1.4.3.js" />
+    <Content Include="Scripts\Sofea\SharedSofeaController.js" />
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -780,8 +783,10 @@
     <Content Include="Views\Conference\Index.aspx" />
     <Content Include="Views\DataLink\Index.aspx" />
     <Content Include="Views\FormGlue\Index.aspx" />
+    <Content Include="Views\JSHacking\Index.aspx" />
     <Content Include="Views\Portlet\Composite.aspx" />
     <Content Include="Views\Portlet\Index.aspx" />
+    <Content Include="Views\Sofea\Index.aspx" />
     <Content Include="Views\Template\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -812,6 +817,7 @@
     <Folder Include="jquery-ui\.git\objects\info\" />
     <Folder Include="jquery-ui\.git\refs\tags\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="WebServices\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="jquery-datalink\.git\config" />
