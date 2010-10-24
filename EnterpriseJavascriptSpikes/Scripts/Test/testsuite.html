@@ -11,6 +11,7 @@
     <!-- begin test targets -->
     <script src="../prototypal.js" type="text/javascript"></script>
     <script src="../app.js" type="text/javascript"></script>
+    <script src="../chainrunner.js" type="text/javascript"></script>
     <!-- end test targets -->
     <script>
         $(document).ready(function () {
@@ -54,14 +55,10 @@
             var ajaxfixtures = new AjaxFixtures();
 
             test("mocked messaging", function () {
-            
+
                 //arrange
                 var url = '/some/json';
-                ajaxfixtures.mock(url, { responseText: {say: "JSON Here"}});
-
-
-
-               
+                ajaxfixtures.mock(url, { responseText: { say: "JSON Here"} });
 
 
                 //execute tests
@@ -86,6 +83,19 @@
 
             });
 
+
+
+            module("Chaining Module");
+            test("Chaining Fake DOM Works", function () {
+                var elems = fakeQuery('p').color('red').elements;
+                
+                //test 1
+                ok(elems.length > 0, "returns elements");
+
+                //tests 2
+                for (var i = 0; i < elems.length; i++)
+                    ok(elems[i].color === 'red', "element received treatment");
+            });
 
 
         });
